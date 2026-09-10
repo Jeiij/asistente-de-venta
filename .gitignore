@@ -1,0 +1,31 @@
+# Archivos de entorno y secretos
+.env
+.env.*
+!.env.example
+
+# Entornos virtuales
+venv/
+.venv/
+env/
+ENV/
+
+# Archivos compilados de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs y bases de datos locales
+*.log
+*.sqlite3
+*.db
+
+# Configuración de IDEs y Editores
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
