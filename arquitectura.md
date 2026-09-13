@@ -10,7 +10,7 @@ Sistema de agente de ventas autónomo diseñado para una PyME de comida rápida.
 - **ORM:** SQLAlchemy 2.0 (Sintaxis asíncrona estricta con `asyncpg` y tipado moderno con `Mapped` y `mapped_column`)
 - **IA / LLM:** Gemini 1.5 Flash (Vía Google GenAI SDK)
 - **Integración Telegram:** Webhooks (Túnel mediante Ngrok para desarrollo local)
-- **Manejo de Moneda:** Scraping ligero / API interna para obtener la tasa del BCV (Banco Central de Venezuela).
+- **Manejo de Moneda:** API interna para obtener la tasa del BCV (Banco Central de Venezuela).
 
 ## 3. Principios de Ingeniería y Restricciones (¡CRÍTICO PARA EL LLM!)
 - **Enfoque Code-First Exclusivo:** Se prohíbe terminantemente sugerir o escribir integraciones para plataformas *low-code* (como n8n, Make, etc.). Toda la inteligencia y orquestación vive en el código Python.
